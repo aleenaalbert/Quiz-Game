@@ -212,7 +212,7 @@ const qBank = {
     ],
 };
 
-// Log the question bank data
+
 console.log('Question Bank Data:', qBank);
 
 export default qBank;
