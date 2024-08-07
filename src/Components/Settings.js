@@ -12,7 +12,7 @@ const Settings = ({ setDifficulty }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setDifficulty(selectedDifficulty);
-        navigate("/quiz"); // Navigate to the quiz page
+        navigate("/quiz"); 
     };
 
     return (
